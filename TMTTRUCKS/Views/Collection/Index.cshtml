@@ -1,0 +1,173 @@
+﻿@{
+    Layout = "HomeLayout";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Collection | TLB Equipment</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f2f5;
+            color: #333;
+        }
+
+        header {
+            background-color:var(--secondary);
+            padding: 20px;
+            text-align: center;
+            color: black;
+        }
+
+            header h1 {
+                margin: 0;
+                font-size: 2.5em;
+                letter-spacing: 1px;
+            }
+
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+
+            .card:hover {
+                transform: translateY(-5px);
+            }
+
+            .card img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+            }
+
+        .card-content {
+            padding: 15px;
+        }
+
+            .card-content h2 {
+                font-size: 1.2em;
+                margin: 0 0 10px;
+            }
+
+        .status {
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .price {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: green;
+            margin-top: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-align: center;
+            width: 100%;
+        }
+
+            .btn:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>OUR COLLECTION</h1>
+    </header>
+
+    <div class="container">
+        <div class="grid">
+            <div class="card">
+                <img src="~/css/IMG-20250409-WA0023.jpg" alt="CAT 420F2">
+                <div class="card-content">
+                    <h2>CAT 420F2 Backhoe Loader</h2>
+                    <p class="status">Available for Rent</p>
+                    <p class="price">R1,200/day</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="~/css/IMG-20250409-WA0014.jpg" alt="JCB 3CX">
+                <div class="card-content">
+                    <h2>JCB 3CX Eco TLB</h2>
+                    <p class="status">For Sale</p>
+                    <p class="price">R580,000</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="~/css/IMG-20250409-WA0011.jpg" alt="New Holland B95B">
+                <div class="card-content">
+                    <h2>New Holland B95B</h2>
+                    <p class="status">Available for Rent</p>
+                    <p class="price">R1,000/day</p>
+                    <a href="" class="btn">View Details</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="~/css/IMG-20250414-WA0072.jpg" alt="JCB 3CX">
+                <div class="card-content">
+                    <h2>JCB 3CX Eco TLB</h2>
+                    <p class="status">For Sale</p>
+                    <p class="price">R580,000</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="~/css/IMG-20250409-WA0039.jpg" alt="New Holland B95B">
+                <div class="card-content">
+                    <h2>New Holland B95B</h2>
+                    <p class="status">Available for Rent</p>
+                    <p class="price">R1,000/day</p>
+                    <a href="" class="btn">View Details</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="~/css/IMG-20250409-WA0023.jpg" alt="JCB 3CX">
+                <div class="card-content">
+                    <h2>JCB 3CX Eco TLB</h2>
+                    <p class="status">For Sale</p>
+                    <p class="price">R580,000</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+</body>
+</html>
