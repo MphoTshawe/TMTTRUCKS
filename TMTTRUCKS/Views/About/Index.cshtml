@@ -3,8 +3,8 @@
 }
 <style>
     header {
-        background-color: var(--secondary);
-        padding: 20px;
+        
+        
         text-align: center;
         color: black;
         
@@ -23,27 +23,385 @@
         background: #f0f2f5;
         color: #333;
     }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+    }
+
+    a,
+    a:hover,
+    a:focus,
+    a:active {
+        text-decoration: none;
+        outline: none;
+    }
+
+        a,
+        a:active,
+        a:focus {
+            color: #333;
+            text-decoration: none;
+            transition-timing-function: ease-in-out;
+            -ms-transition-timing-function: ease-in-out;
+            -moz-transition-timing-function: ease-in-out;
+            -webkit-transition-timing-function: ease-in-out;
+            -o-transition-timing-function: ease-in-out;
+            transition-duration: .2s;
+            -ms-transition-duration: .2s;
+            -moz-transition-duration: .2s;
+            -webkit-transition-duration: .2s;
+            -o-transition-duration: .2s;
+        }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    .sec-title-style1 {
+        position: relative;
+        display: block;
+        margin-top: -9px;
+        padding-bottom: 50px;
+    }
+
+        .sec-title-style1.max-width {
+            position: relative;
+            display: block;
+            max-width: 770px;
+            margin: -9px auto 0;
+            padding-bottom: 52px;
+        }
+
+        .sec-title-style1.pabottom50 {
+            padding-bottom: 42px;
+        }
+
+        .sec-title-style1 .title {
+            position: relative;
+            display: block;
+            color: #131313;
+            font-size: 36px;
+            line-height: 46px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+            .sec-title-style1 .title.clr-white {
+                color: #ffffff;
+            }
+
+        .sec-title-style1 .decor {
+            position: relative;
+            display: block;
+            width: 70px;
+            height: 5px;
+            margin: 19px 0 0;
+        }
+
+            .sec-title-style1 .decor:before {
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                width: 5px;
+                height: 5px;
+                background: var(--secondary);
+                border-radius: 50%;
+                content: "";
+            }
+
+            .sec-title-style1 .decor:after {
+                position: absolute;
+                top: 0;
+                right: 10px;
+                bottom: 0;
+                width: 5px;
+                height: 5px;
+                background: var(--secondary);
+                border-radius: 50%;
+                content: "";
+            }
+
+            .sec-title-style1 .decor span {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                width: 50px;
+                height: 1px;
+                background: var(--secondary);
+                margin: 2px 0;
+            }
+
+
+        .sec-title-style1 .text {
+            position: relative;
+            display: block;
+            margin: 7px 0 0;
+        }
+
+            .sec-title-style1 .text p {
+                position: relative;
+                display: inline-block;
+                padding: 0 15px;
+                color: #131313;
+                font-size: 14px;
+                line-height: 16px;
+                font-weight: 700;
+                text-transform: uppercase;
+                margin: 0;
+            }
+
+            .sec-title-style1 .text.clr-yellow p {
+                color: var(--secondary);
+            }
+
+            .sec-title-style1 .text .decor-left {
+                position: relative;
+                top: -2px;
+                display: inline-block;
+                width: 70px;
+                height: 5px;
+                background: transparent;
+            }
+
+                .sec-title-style1 .text .decor-left span {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    width: 50px;
+                    height: 1px;
+                    background: var(--secondary);
+                    content: "";
+                    margin: 2px 0;
+                }
+
+                .sec-title-style1 .text .decor-left:before {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    width: 5px;
+                    height: 5px;
+                    background: var(--secondary);
+                    border-radius: 50%;
+                    content: "";
+                }
+
+                .sec-title-style1 .text .decor-left:after {
+                    position: absolute;
+                    top: 0;
+                    right: 10px;
+                    bottom: 0;
+                    width: 5px;
+                    height: 5px;
+                    background: var(--secondary);
+                    border-radius: 50%;
+                    content: "";
+                }
+
+            .sec-title-style1 .text .decor-right {
+                position: relative;
+                top: -2px;
+                display: inline-block;
+                width: 70px;
+                height: 5px;
+                background: transparent;
+            }
+
+                .sec-title-style1 .text .decor-right span {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    width: 50px;
+                    height: 1px;
+                    background: var(--secondary);
+                    content: "";
+                    margin: 2px 0;
+                }
+
+                .sec-title-style1 .text .decor-right:before {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    width: 5px;
+                    height: 5px;
+                    background: var(--secondary);
+                    border-radius: 50%;
+                    content: "";
+                }
+
+                .sec-title-style1 .text .decor-right:after {
+                    position: absolute;
+                    top: 0;
+                    left: 10px;
+                    bottom: 0;
+                    width: 5px;
+                    height: 5px;
+                    background: var(--secondary);
+                    border-radius: 50%;
+                    content: "";
+                }
+
+        .sec-title-style1 .bottom-text {
+            position: relative;
+            display: block;
+            padding-top: 16px;
+        }
+
+            .sec-title-style1 .bottom-text p {
+                color: #848484;
+                font-size: 16px;
+                line-height: 26px;
+                font-weight: 400;
+                margin: 0;
+            }
+
+            .sec-title-style1 .bottom-text.clr-gray p {
+                color: #cdcdcd;
+            }
+
+    .contact-address-area {
+        position: relative;
+        display: block;
+        background: #f0f2f5;
+        padding: 50px 0 0px;
+    }
+
+        .contact-address-area .sec-title-style1.max-width {
+            padding-bottom: 72px;
+        }
+    /*   */
+
+    /* About Content */
+    .about-section {
+        background-color: #f0f2f5;
+        padding: px 0;
+    }
+
+    .section-title {
+        text-align: center;
+        margin-bottom: 50px;
+        background-colour: #f0f2f5;
+    }
+
+        .section-title h2 {
+            font-size: 36px;
+            color: #black;
+            margin-bottom: 15px;
+        }
+
+        .section-title p {
+            color: black;
+            max-width: 700px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+    .about-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        font-size: 16px;
+    }
+
+    .about-text {
+        flex: 1;
+        min-width: 300px;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+        .about-text h3 {
+            font-size: 50px;
+            margin-bottom: 20px;
+            color: black;
+        }
+
+    .about-image {
+        flex: 1;
+        min-width: 300px;
+        padding: 0 20px;
+        display: flex;
+        justify-content: center;
+    }
+
 </style>
 <body>
-     <header >
-         <h2>About Us</h2>
-     </header>
- </body>
-<section style="background-color: #fff; padding: 60px 20px; font-family: 'Segoe UI', sans-serif;">
-    <div style="max-width: 1000px; margin: 0 auto;">
-       
-        <p style="font-size: 2rem; color: #555; line-height: 1.6; text-align: center; max-width: 800px; margin: 0 auto;">
-            At <strong>TMT TRUCKS</strong>, we specialize in the sale, rental, and service of high-performance
-            TLBs (Tractor-Loader-Backhoes) built to handle the most demanding construction and earthmoving tasks.
-            With years of industry experience, we’ve earned a reputation for reliability, quality, and hands-on expertise.
-        </p>
-        <p style="font-size: 2em; color: #555; line-height: 1.6; text-align: center; max-width: 800px; margin: 20px auto 0;">
-            Whether you’re a contractor, developer, or municipality, we offer tailored equipment solutions that get the job done —
-            backed by responsive customer service and technical support you can count on.
-        </p>
-        <p style="font-size: 2em; color: #555; line-height: 1.6; text-align: center; max-width: 800px; margin: 20px auto 0;">
-            We’re passionate about powering your projects with machines that perform — and partnerships that last.
-        </p>
-    </div>
-</section>
+    <section class="contact-address-area">
+        <div class="container">
+            <div class="sec-title-style1 text-center max-width">
+                <div class="title">About Us</div>
+                <div class="text"><div class="decor-left"><span></span></div><p></p><div class="decor-right"><span></span></div></div>
+                <div class="bottom-text">
+                    <p> 
+                    </p>
+                </div>
+            </div>
+            </div>
+     </section>
 
+    <section class="about-section">
+        <div class="container">
+           
+
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Who We Are</h3>
+                   <p></p>
+
+                    <h3>Our Mission</h3>
+                    <p>
+                        TMT has a proud heritage of providing services to companies in South Africa.<br /> TMT envisage a more developed Africa, priding themselves on being one of the main contributors in creating opportunities for all.<br />
+                        With more than four years’ experience in the plant hire industry, and with their knowledgeable staff who are trained to advise their customers accordingly on required equipment, <br />TMT is working towards expanding their reach and services.
+                        TMT strives on building long-lasting relationships with its customers and providing convenience and service.
+                        
+                    </p>
+
+                    
+
+                    <h3>Our Vision</h3>
+                    <p>
+                        TMT’s vision is to help build the foundation of South Africa<br />
+                        TMT wants to be part of the African Story, and be a guiding hand to those who are building our future.<br />
+                        TMT strives to achieve this by the timeous delivery of top-quality equipment and backup service to meet all of their customer’s needs.
+
+
+                    </p>
+
+                    <h3>Our Values</h3>
+                    <p>
+                        TMT maintains a strict standard in order to reach their vision and mission.<br />
+
+                        Empowerment: TMT's staff are go-getters that show initiative and strive to achieve greater thing. As a company, TMT prefers people who try but get it wrong rather than those who don't try at all.<br />
+                        Reliability: TMT's employees believe in a "Touch things once" and a "Do it right the first time" philosophy.<br />
+                        Honesty: TMT and its staff have high ethics and a strong moral fibre. We do not steal nor do we entertain corruption and bribery. Because of this, we will be remembered for who we are and our excellence in service delivery.<br />
+                        Excellence: We, at TMT, aim to do our best at all times, whether it's at work or whether it's at home, whether it's what we enjoy or what we have to do. Everything we do, we do to the best of our ability!<br />
+                        Attitude: TMT's employees support each other and we always strive to do things to the best of our ability, as efficiently as possible and with a positive and happy heart.<br />
+                        Motivation: At TMT, we pride ourselves as being a team, helping and inspiring everyone around us. We don't say, "It's not my job!", but rather, "Is there anything else I can do?"<br />
+
+
+                    </p>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+ </body>
